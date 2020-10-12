@@ -1,0 +1,22 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 10px;
+}
+
+.grid {
+  background: red;
+}
+
+.v-container {
+  background: blue;
+  height: 200px;
+  display: none;
+}
